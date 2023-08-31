@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+    <head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <nav class="cabecalho__menuDesktop">
+            <a class="cabecalho__menu__link" href="index.html">Comece Aqui</a>
+            <a class="cabecalho__menu__link" href="about.html">Me conheça</a>
+            <a class="cabecalho__menu__link" href="habilidades.html">Habilidades</a>
+            <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+        </nav>
+</header>
+    <main>
+        <form class="form" action="https://formsubmit.co/milenatj@gmail.com" method="POST">
+            <h2>Entre em contato comigo:</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" name="name" id="nome" placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" placeholder="Digite seu melhor e-mail" required>
+
+            <label for="textarea">Mensagem:</label>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea>
+             
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/email-enviado.html">
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </main>
+    <footer class="rodape">
+        <img src="./assets/Logo Alura Include.svg" alt="Logo Alura">
+        <img src="./assets/logo-SENAC.png" alt="Logo Senac">
+        <p>Desenvolvido por Milena Teo</p>
+    </footer>
+
+</body>
+
+</html>
